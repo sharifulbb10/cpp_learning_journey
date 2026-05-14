@@ -18,3 +18,11 @@ In sublime text, add terminus package. Go to Tools->Build System->New Build Syst
 ```
 With Ctrl+Shift+B pressed, select Terminal_Cpp.sublime-build. It will mainly help while accepting user-input.
 
+### first c++ script
+```cpp
+#include <iostream>
+
+int main() {
+	cout<<"hello world!"<<endl;
+}
+ ```
