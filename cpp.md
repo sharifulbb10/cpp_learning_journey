@@ -26,3 +26,14 @@ int main() {
 	cout<<"hello world!"<<endl;
 }
  ```
+### type aliases
+```cpp
+typedef int age;
+age my_age = 30;
+
+// more cleaner
+using age=int;
+age my_age = 30;
+
+// 'using' is the recommended option
+```
