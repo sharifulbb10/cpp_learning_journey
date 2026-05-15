@@ -37,3 +37,51 @@ age my_age = 30;
 
 // 'using' is the recommended option
 ```
+
+### data types
+Let's learn some common data types in c++:
+
+```cpp
+#include <iostream>
+int main() {
+
+  // integer number
+  int num = 2;
+  int num2 =2.36;
+  std::cout << num<<'\n';
+  std::cout << num2<<'\n';
+  // 2
+  // 2
+
+  // float number
+  double money = 1.50;
+  double money2 = 5.55;
+  std::cout << money<<std::endl; 
+  std:: cout << money2<<std::endl;
+  // 1.5
+  // 5.55
+
+  // character (single character) 
+  char currency = '$';
+  char singleChar = 'A';
+  std::cout << currency<<std::endl;
+  std::cout << singleChar<<'\n';
+  // $
+  // a
+
+  // string 
+  std::string name = "Shariful";
+  std::string favFruit = " My favorite fruit is Banana";
+  std::cout << name<<'\n';
+  std::cout << favFruit<<'\n';
+  // Shariful 
+  // My favorite fruit is Banana;
+
+  // boolean
+  bool isStudent = true;
+  bool happy = true;
+  bool upset = false;
+  std::cout << upset<<'\n';
+  // false
+}
+```
